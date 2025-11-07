@@ -1,51 +1,54 @@
-# UX Case Study: Riprogettazione del Sistema di Prenotazione "Prenoting"
+# UX Case Study: Riprogettazione del Sistema di Prenotazione "Prenoting Fondazione Don Gnocchi"
 
-Questo repository documenta un progetto completo di **analisi dell'usabilità** e **riprogettazione dell'interfaccia utente (UI/UX)** del sistema di prenotazione online della Fondazione Don Carlo Gnocchi. L'obiettivo è stato identificare le criticità di usabilità del sistema esistente e proporre una soluzione riprogettata basata su principi di **Human-Centered Design**.
+Questo repository documenta un caso di studio completo di **Interazione Uomo-Macchina (HCI)** e **User Experience (UX) Design**, focalizzato sull'analisi e la riprogettazione del sistema di prenotazione online della Fondazione Don Gnocchi.
 
----
-
-### 📄 **Documentazione Completa**
-*   [**Leggi la Relazione Completa del Progetto](./docs/NOME_FILE_RELAZIONE.pdf)**
-*   [**Visualizza le Slide di Presentazione](./docs/NOME_FILE_SLIDE.pdf)**
-*   [**Esplora il Prototipo Interattivo su Figma**](IL_TUO_LINK_FIGMA_QUI)
+Il progetto dimostra un processo metodico per identificare problemi di usabilità in un sistema esistente e proporre soluzioni concrete basate su principi di design consolidati.
 
 ---
 
-## 🎯 Il Problema: Un'Esperienza Utente Frammentata
+### ➡️ **Risultati Principali**
+*   [**Esplora il Prototipo Interattivo su Figma**](https://www.figma.com/design/om5qv12A72gHq642pcEQQz/progetto-IUM?node-id=1050-13908&t=455D31AA1337ydsc-1)
+*   [**Leggi la Relazione Completa (PDF)**](./relazione-prenoting-don-gnocchi.pdf)
+*   [**Visualizza le Slide di Presentazione (PDF)**](./slide-prenoting-don-gnocchi.pdf)
 
-Il sistema di prenotazione "Prenoting" della Fondazione Don Gnocchi, pur essendo funzionale, presentava significative criticità di usabilità che potevano causare frustrazione negli utenti e aumentare il rischio di errori. L'analisi iniziale ha rivelato problemi in aree chiave come:
-*   **Feedback di sistema assente o poco chiaro.**
-*   **Inconsistenza tra diverse sezioni dell'interfaccia.**
-*   **Flussi di navigazione complessi e poco intuitivi.**
-*   **Eccessivo carico cognitivo per l'utente.**
+---
 
-## 🔬 Metodologia: Un Approccio Guidato dai Dati
+## 🎯 Obiettivo del Progetto
 
-È stata condotta una **Valutazione Euristica** strutturata, basata sui **10 principi di usabilità di Nielsen**, per analizzare sistematicamente l'interfaccia.
+L'obiettivo era condurre una **valutazione euristica** del sistema di prenotazione "Prenoting", identificare le violazioni dei principi di usabilità di Nielsen e progettare un prototipo ad alta fedeltà che risolvesse i problemi critici, migliorando l'efficienza, l'efficacia e la soddisfazione dell'utente.
 
-1.  **Analisi del Sistema (As-Is):** Mappatura dei flussi utente esistenti per i task principali (es. prenotazione, gestione profilo).
-2.  **Definizione dei Personas:** Creazione di profili utente rappresentativi (pazienti e staff amministrativo) per empatizzare con le loro esigenze e frustrazioni.
-3.  **Valutazione Euristica:** Tre valutatori esperti hanno ispezionato l'interfaccia, identificando e classificando **89 problemi di usabilità** per principio violato e grado di severità.
-4.  **Analisi dei Dati:** I risultati sono stati aggregati e analizzati per identificare i problemi più critici e ricorrenti, evidenziando violazioni sistematiche dei principi di **Riconoscimento piuttosto che ricordo** e **Consistenza e standard**.
+## 🔬 Metodologia
 
-## ✨ La Soluzione: Una Riprogettazione Human-Centered
+Il progetto è stato strutturato seguendo un rigoroso processo di analisi UX in tre fasi:
 
-Sulla base dei dati raccolti, è stato sviluppato un **prototipo interattivo in Figma** che propone una riprogettazione completa dell'interfaccia utente, focalizzata su:
+### 1. Fase di Briefing: Valutazione Euristica
+È stata condotta un'analisi approfondita dell'interfaccia esistente da parte di un team di valutatori. Ogni problema di usabilità è stato sistematicamente identificato e classificato in base ai **10 Principi di Usabilità di Jakob Nielsen**.
 
-*   **Semplificazione dei Flussi:** Razionalizzazione del processo di prenotazione, riducendo il numero di passaggi e il carico cognitivo.
-*   **Feedback Immediato:** Introduzione di messaggi di errore chiari, contestuali e costruttivi.
-*   **Consistenza Visiva:** Adozione di un design system coerente basato su **Material Design 3**, con un layout pulito e una navigazione prevedibile.
-*   **Miglioramento dell'Accessibilità:** Utilizzo di font più leggibili e un'architettura dell'informazione più chiara.
+### 2. Fase di Debriefing: Analisi e Classificazione dei Problemi
+I risultati della valutazione sono stati aggregati e analizzati quantitativamente. In totale, sono stati identificati **89 problemi di usabilità**, classificati per:
+*   **Gravità:** Utilizzando la scala di severità di Nielsen per prioritizzare gli interventi.
+*   **Principio Violato:** Per comprendere le cause profonde dei problemi.
+*   **Localizzazione:** Mappando i problemi su specifiche pagine del front-end e del back-end.
 
-| Prima (Homepage) | Dopo (Homepage Riprogettata) |
-| :---: | :---: |
-| *[Inserisci qui screenshot della vecchia homepage]* | *[Inserisci qui screenshot della nuova homepage]* |
+*(Un grafico chiave dalla sua relazione, ad esempio l'istogramma dei principi violati, può essere inserito qui per un impatto visivo immediato)*
+`![Istogramma Principi Violati](./media/istogramma-nielsen.png)`
 
-## 📈 Risultati e Impatto
+### 3. Fase di Riprogettazione
+Sulla base dei dati raccolti, è stato sviluppato un **prototipo interattivo in Figma**. La riprogettazione si è concentrata sulla risoluzione dei problemi più critici, con interventi mirati su:
+*   **Architettura dell'Informazione:** Semplificazione della navigazione e del menu.
+*   **Flussi Utente:** Ottimizzazione dei processi di registrazione, login e prenotazione.
+*   **Design dell'Interfaccia:** Miglioramento della coerenza visiva, del feedback all'utente e della chiarezza dei layout, seguendo i principi della Gestalt e del Material Design.
 
-Per validare l'efficacia della riprogettazione, è stato condotto un **test di usabilità comparativo** con 10 utenti, confrontando il sistema originale (V1) con il prototipo riprogettato (V2). I risultati quantitativi parlano da soli:
+## ✨ Principali Miglioramenti Apportati
 
-*   **Riduzione degli Errori:** Il numero totale di errori commessi dagli utenti è **diminuito del 68%**.
-*   **Aumento dell'Efficienza:** Il tempo medio totale per completare i task è stato **ridotto del 43%**.
-*   **Miglioramento della Soddisfazione (SUS):** Il punteggio del **System Usability Scale** è passato da **69.25** (accettabile) a **84** (eccellente).
-*   **Aumento della Fedeltà (NPS):** Il **Net Promoter Score** è schizzato da **10 a 50**, indicando una drastica riduzione dei detrattori e un forte aumento dei promotori.
+La riprogettazione ha introdotto numerose soluzioni per migliorare l'usabilità:
+
+*   **Homepage Semplificata:** Riduzione del carico cognitivo e call-to-action più chiare.
+*   **Navigazione Coerente:** Implementazione di un "escape hatch" e di un `navbar` consistente in tutto il sistema.
+*   **Feedback Immediato:** Introduzione di messaggi di errore contestuali e inline (pattern "Same-Page Error Messages") per guidare l'utente durante la compilazione dei form.
+*   **Design Visivo Standardizzato:** Adozione di un sistema di componenti e stili coerente per migliorare la riconoscibilità e ridurre la confusione.
+
+## 🛠️ Strumenti Utilizzati
+
+*   **Analisi e Reportistica:** Documentazione e analisi statistica.
+*   **Prototipazione:** **Figma** per la creazione di wireframe, mockup ad alta fedeltà e prototipi interattivi.
